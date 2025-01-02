@@ -8,9 +8,7 @@ function Nav() {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="/">
-            Start Bootstrap
-          </a>
+          <Link className="navbar-brand" to="/">Start Bootstrap</Link>
           <button
             className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
             type="button"
